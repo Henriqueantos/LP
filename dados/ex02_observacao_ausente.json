@@ -1,0 +1,13 @@
+{
+  "event_id": "demo-002",
+  "device_id": "sim-01",
+  "quantity": "indice_demo",
+  "value": null,
+  "unit": "u_demo",
+  "quality": "missing",
+  "measured_at": null,
+  "received_at": "2026-09-01T10:00:05Z",
+  "source_kind": "synthetic",
+  "acquisition_mode": "replay",
+  "raw_ref": "dataset_demo:linha_2"
+}

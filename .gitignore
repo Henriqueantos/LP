@@ -1,0 +1,16 @@
+# O ambiente é recriado em cada máquina; nunca é copiado para o repositório.
+.venv/
+__pycache__/
+*.py[cod]
+# A ausência no repositório deve ser revista; ignore não é um cofre.
+.env
+.env.*
+!.env.example
+.ssh/
+segredos/
+*.pem
+*.key
+*.p12
+evidencias_locais/
+.DS_Store
+Thumbs.db
