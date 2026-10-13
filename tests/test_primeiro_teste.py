@@ -14,5 +14,6 @@ class TestPrimeiroTeste(unittest.TestCase):
         entrada = ler_mensagem(DADOS / "ex02_observacao_valida.json")
         saida = criar_resumo(entrada)
         # Substituir self.fail por asserções baseadas em CA-GL01-01.
-        # Escrever o resultado esperado a partir do contrato, não do programa.
-        self.fail("Tarefa GL01 por concluir: verificar zero e qualidade.")
+        # Escrever o resultado esperado a partir do contrato, não do programa ola.
+        self.assertEqual(saida["value"], 0)
+        self.assertEqual(saida["quality"], "valid")
