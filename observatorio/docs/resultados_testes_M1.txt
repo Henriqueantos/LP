@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.2.0, pluggy-1.7.0 -- /home/pi/LP_grupo/observatorio/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/pi/LP_grupo/observatorio
+configfile: pytest.ini
+plugins: cov-7.1.0
+collecting ... collected 10 items
+
+tests/test_processing.py::test_json_invalido_nao_interrompe PASSED       [ 10%]
+tests/test_processing.py::test_idempotencia PASSED                       [ 20%]
+tests/test_processing.py::test_mesmo_valor_evento_diferente_conta PASSED [ 30%]
+tests/test_processing.py::test_replay_preserva_origem_real PASSED        [ 40%]
+tests/test_processing.py::test_sintetico_fica_assinalado PASSED          [ 50%]
+tests/test_validation.py::test_mensagem_valida PASSED                    [ 60%]
+tests/test_validation.py::test_campo_ausente_nao_vira_zero PASSED        [ 70%]
+tests/test_validation.py::test_valor_fora_de_intervalo_e_invalido PASSED [ 80%]
+tests/test_validation.py::test_valor_nao_numerico PASSED                 [ 90%]
+tests/test_validation.py::test_sem_identificacao_levanta PASSED          [100%]
+
+============================== 10 passed in 0.11s ==============================

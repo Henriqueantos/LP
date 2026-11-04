@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS rejections (
 
 
 class Store:
-    def _init_(self, path: str = ":memory:"):
+    def __init__(self, path: str = ":memory:"):
         self.conn = sqlite3.connect(path, check_same_thread=False)
         self._lock = threading.Lock()
         with self._lock, self.conn:

@@ -1,0 +1,5 @@
+{"end_device_ids": {"device_id": "sensor-sintetico-01"}, "received_at": "2026-11-04T10:01:00.000Z", "uplink_message": {"session_key_id": "sessao-teste", "f_cnt": 1, "decoded_payload": {"grandeza_a": 11.0, "grandeza_b": 51.0}}}
+{"end_device_ids": {"device_id": "sensor-sintetico-01"}, "received_at": "2026-11-04T10:02:00.000Z", "uplink_message": {"session_key_id": "sessao-teste", "f_cnt": 2, "decoded_payload": {"grandeza_a": 12.0, "grandeza_b": 52.0}}}
+{"end_device_ids": {"device_id": "sensor-sintetico-01"}, "received_at": "2026-11-04T10:03:00.000Z", "uplink_message": {"session_key_id": "sessao-teste", "f_cnt": 3, "decoded_payload": {"grandeza_a": 13.0, "grandeza_b": 53.0}}}
+{"end_device_ids": {"device_id": "sensor-sintetico-01"}, "received_at": "2026-11-04T10:04:00.000Z", "uplink_message": {"session_key_id": "sessao-teste", "f_cnt": 4, "decoded_payload": {"grandeza_a": 14.0, "grandeza_b": 54.0}}}
+{"end_device_ids": {"device_id": "sensor-sintetico-01"}, "received_at": "2026-11-04T10:05:00.000Z", "uplink_message": {"session_key_id": "sessao-teste", "f_cnt": 5, "decoded_payload": {"grandeza_a": 15.0, "grandeza_b": 55.0}}}
