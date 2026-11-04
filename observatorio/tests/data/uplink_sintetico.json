@@ -1,0 +1,9 @@
+{
+  "end_device_ids": {"device_id": "sensor-sintetico-01"},
+  "received_at": "2026-11-04T10:00:00.000Z",
+  "uplink_message": {
+    "session_key_id": "sessao-teste",
+    "f_cnt": 1,
+    "decoded_payload": {"grandeza_a": 10.0, "grandeza_b": 50.0}
+  }
+}
